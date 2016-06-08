@@ -1,0 +1,1295 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700)
+
+
+$mont: "Montserrat", sans-serif
+$robslab: 'Roboto Slab', serif
+
+
+body
+	font-size: 62.5%
+
+
+
+.display
+	display: block !important
+
+	transition: 3s
+
+
+@media only screen and (min-width : 20em)
+
+	.page-header
+		background-color: #FFFFFF
+
+		padding: 0 5%
+
+		.navigation
+			
+			#toggleNavBtn
+				position: absolute
+				right: 5%
+				top: 22px
+
+				border: 0
+				background-color: transparent
+
+				font-size: 1.3rem
+
+			
+			.navigation-list
+				padding-left: 0
+
+				list-style-type: none
+
+
+
+				.navigation-list-link
+					
+					a
+						text-decoration: none
+						text-transform: uppercase
+						font-family: $mont
+						color: #000000
+
+						opacity: 0.7
+
+						transition: 0.2s
+
+						&:hover
+							opacity: 1
+
+							transition: 0.2s
+				
+					&:first-child
+						a
+							img
+								position: relative
+								top: 6px
+
+					&:nth-child(n+2)
+						margin: 1% 0
+
+						text-align: right
+
+						font-size: 1.3rem
+						letter-spacing: 2px			
+
+						display: none
+
+	
+	.intro
+		height: 90vh
+
+		padding: 0 5%
+
+		background-image: url('../img/introbg.jpg')
+		background-size: cover
+		background-attachment: fixed
+
+		text-align: center
+
+		.title
+			position: relative
+			top: 25vh
+
+			color: #FFFFFF
+			font-family: $mont
+			font-size: 1.5rem
+			letter-spacing: 2px
+			text-transform: uppercase
+
+		.subtitle
+			position: relative
+			top: 25vh
+
+			color: #FFFFFF
+			font-family: $robslab
+			font-size: 0.9rem
+			font-weight: 300
+		
+		a
+			position: relative
+			top: 40vh
+
+			padding: 10px 20px
+
+
+			color: #FFFFFF
+			font-family: $mont
+			font-size: 1.2rem
+			text-decoration: none
+			text-transform: uppercase
+
+			background-color: #7cc576
+			border-radius: 20px
+	
+			
+	.professional-services
+		padding: 10% 5%
+
+		text-align: center
+
+		.title
+			margin-bottom: 5px
+
+			font-family: $mont
+			text-transform: uppercase
+			font-size: 1.25rem
+
+		.subtitle
+			margin-top: 0
+
+			font-family: $robslab	
+			font-size: 0.75rem
+
+			opacity: 0.75
+
+		.wrapper
+			.block
+				margin: 50px 0
+
+				.block-title
+					font-family: $mont
+					font-size: 1.1rem
+					text-transform: uppercase
+					letter-spacing: 1px
+
+				.block-description
+					font-family: $robslab
+					font-size: 0.75rem	
+
+	.justrelax
+		.wrapper
+			display: flex
+
+			.gear
+				display: none
+
+			.mainContent
+				height: 100%
+				padding: 5%
+
+				background-image: url('../img/justrelaxbg.jpg')
+				background-size: cover		
+				background-attachment: fixed	
+
+				.title
+					color: #FFFFFF
+
+					font-family: $mont
+					font-size: 1.25rem
+					text-align: center
+					text-transform: uppercase
+					letter-spacing: 2px
+
+					span
+						color: #7cc576	
+
+				.subtitle
+					color: #FFFFFF
+
+					font-family: $robslab
+					font-size: 0.7rem
+
+					text-align: center
+
+					opacity: 0.7		
+
+
+				.mainContent-list
+					list-style-type: none
+
+					li
+						margin: 10% 0
+
+						color: #FFFFFF
+
+						font-family: $mont
+						font-size: 0.8rem
+						
+						img
+							position: relative
+							top: 10px
+							left: -10px
+				
+				.mainContentBtn
+					padding: 10px 20px
+					margin: 15vh auto 
+					display: block
+					width: 40%
+
+					color: #FFFFFF
+					font-family: $mont
+					font-size: 1.2rem
+					text-decoration: none
+
+					background-color: #7cc576
+					border-radius: 20px
+
+	.latestproject	
+		padding: 5% 0
+
+		.title
+			font-family: $mont
+			font-size: 1.25rem
+			text-align: center
+			text-transform: uppercase
+			letter-spacing: 2px
+
+		.subtitle
+			font-family: $robslab
+			font-size: 0.8rem
+
+			text-align: center
+
+			opacity: 0.7		
+
+		.wrapper
+			.mainContent
+				padding: 5%
+
+				.title
+					margin-top: 10vh
+
+					font-family: $mont
+					font-size: 1rem
+				
+				.description
+					font-family: $robslab
+					font-size: 0.75rem
+					text-align: left
+
+					opacity: 0.7
+
+				.mainContent-list
+					list-style-type: none
+					padding-left: 10px
+					padding-bottom: 20px
+					
+					li
+						margin: 15% 0
+
+						font-family: $mont
+						font-size: 0.9rem
+						text-transform: uppercase
+
+						img
+							position: relative
+							top: 25px
+							left: -5px
+
+				.mainContentViewDetails
+					color: #7cc576
+					text-decoration: none
+					text-transform: uppercase
+
+					font-size: 0.75rem
+					font-weight: bold
+
+		.image
+			height: 50vh
+
+			background-image: url('../img/latestprojectimg.jpg')
+			background-size: cover
+
+
+	.culture
+		padding: 5% 0
+
+		background-color: #f9f9f9
+
+		.title
+			font-family: $mont
+			font-size: 1.25rem
+			text-align: center
+			text-transform: uppercase
+			letter-spacing: 2px
+
+			text-align: center
+
+		.subtitle
+			font-family: $robslab
+			font-size: 0.8rem
+
+			text-align: center
+
+			opacity: 0.7		
+
+			text-align: center
+
+		.wrapper
+			position: relative
+			top: 5vh
+
+			display: flex
+			flex-wrap: wrap
+
+			
+			text-align: center	
+
+			.block
+				margin: 15% 5%
+
+				position: relative
+
+				&:after
+					display: block
+					content: ''
+					height: 80px
+					width: 2px
+
+					left: 50%
+					right: 50%
+
+					position: absolute
+
+					background-color: #000000
+					
+					opacity: 0.4
+
+				&:last-child
+					&:after
+						display: none
+
+
+				.title
+					font-size: 0.9rem
+					letter-spacing: 2px
+
+				.description
+					font-family: $robslab
+					font-size: 0.8rem
+
+					opacity: 0.7
+
+	.clients
+		padding: 5% 0
+
+		.title
+			font-family: $mont
+			font-size: 1.25rem
+			text-align: center
+			text-transform: uppercase
+			letter-spacing: 2px
+
+			text-align: center
+
+	.subtitle
+		font-family: $robslab
+		font-size: 0.8rem
+
+		text-align: center
+
+		opacity: 0.7		
+
+		text-align: center
+
+
+	blockquote
+		margin: 20% 5%
+
+		text-align: center
+
+		.avatar
+			height: 175px
+			width: 175px
+
+			display: block
+
+			margin: 0 auto
+
+			background-color: #cccccc
+			border-radius: 50%
+
+
+		.quote
+			font-family: $robslab
+			font-size: 0.9rem
+
+		.author
+			font-family: $robslab
+			font-size: 0.9rem
+
+			color: #7cc576
+
+	.contact
+		background-color: #7cc576
+		
+		padding: 10% 0
+
+		text-align: center
+
+		.title
+			margin-bottom: 10vh
+
+			font-family: $mont
+			font-size: 2rem
+			text-align: center
+			text-transform: uppercase
+			letter-spacing: 2px
+
+			color: #FFFFFF	
+
+		a
+			padding: 5px
+
+
+			font-family: $mont
+			font-size: 1.5rem
+			text-align: center
+			text-transform: uppercase
+			text-decoration: none
+			letter-spacing: 2px
+
+			color: #FFFFFF	
+			border: 3px solid #FFFFFF
+
+			text-align: center
+
+	
+	.logos
+		padding: 15%
+
+		.wrapper
+			display: flex
+			flex-wrap: wrap
+
+			justify-content: center
+
+			img
+				margin: 2.5vh 0			
+
+	
+	.page-footer
+		.text-block
+			display: flex
+			flex-wrap: wrap
+			
+			padding: 5%
+
+			background-color: #222222				
+
+			.title
+				font-family: $mont
+				font-size: 1.1rem
+				letter-spacing: 2px
+				text-transform: uppercase
+				
+
+				color: #FFFFFF
+	
+			.contacts
+				font-family: $robslab
+				font-size: 1rem
+
+				color: #FFFFFF
+
+				i
+					margin-right: 10px
+	
+
+			.latestpost
+				ul
+					padding: 0
+
+					list-style-type: none
+					
+					li
+						margin: 5% 0
+
+						font-family: $robslab
+						font-size: 1rem
+
+						color: #FFFFFF
+
+						i
+							margin-right: 10px
+
+			.latesttweets
+				font-size: 1rem
+				font-family: $robslab
+
+				color: #FFFFFF
+
+				span
+					font-size: 0.7rem
+		
+		.socials-block
+			text-align: center
+			
+			ul
+				list-style-type: none
+
+				li
+					margin: 5%
+
+					display: inline-block
+					
+					font-size: 2rem
+
+					a
+						color: #000000
+		
+
+
+
+@media only screen and (min-width : 48em)
+
+	.page-header
+		height: 5vh
+		&:after
+			display: block
+			content: ''
+			clear: both
+		.navigation
+			#toggleNavBtn
+				display: none
+
+			
+			.navigation-list
+				padding-left: 0
+
+				list-style-type: none
+
+				text-align: right
+
+				.navigation-list-link
+					display: inline-block
+				
+					&:first-child
+						float: left
+						
+						position: relative
+						top: 0px
+
+
+
+					&:nth-child(n+2)
+						position: relative
+						right: 0px
+						top: 20px
+
+						margin: 1% 
+						display: inline-block
+
+
+						font-size: 0.8rem
+						letter-spacing: 0
+
+						
+
+	
+	.intro
+		height: 95vh
+
+		.title
+			top: 14vh
+
+			font-size: 3.5rem
+			
+		.subtitle
+			top: 15vh
+
+			font-size: 1.2rem
+			
+		a
+			position: relative
+			top: 24vh
+
+			
+			
+	.professional-services
+		height: 60vh
+
+		padding: 5%
+
+		.title
+			font-size: 1.75rem
+
+		.subtitle
+			font-size: 1rem
+
+		.wrapper
+			display: flex
+			flex-wrap: wrap
+			.block
+				margin: 5% 0
+				width: 33%
+
+				&:nth-child(1)
+					.block-title
+						position: relative
+						top: -4px
+
+					.block-description
+						position: relative
+						top: -4px
+
+
+				&:nth-child(2)
+					.block-title
+						position: relative
+						top: -7.5px
+
+					.block-description
+						position: relative
+						top: -7.5px
+
+
+
+				.block-title
+					font-family: $mont
+					font-size: 1.1rem
+					text-transform: uppercase
+					letter-spacing: 1px
+
+
+
+				.block-description
+					font-family: $robslab
+					font-size: 0.75rem	
+
+					margin: 0 7%
+
+	.justrelax
+		.wrapper
+			display: flex
+
+			.gear
+				display: block
+				width: 30%
+				background-image: url('../img/gear.png')
+				background-size: cover
+				background-position: center
+
+			.mainContent
+				height: 80vh
+				width: 70%
+				padding: 5%
+
+				background-image: url('../img/justrelaxbg.jpg')
+				background-size: cover		
+				background-attachment: fixed	
+
+				.title
+					font-size: 1.75rem
+					text-align: left
+
+					span
+						color: #7cc576	
+
+				.subtitle
+					font-size: 1rem
+
+					text-align: left
+
+				.mainContent-list
+					padding-left: 8px
+
+					li
+						margin: 3% 0
+
+				.mainContentBtn
+					margin: 15vh 0
+					width: 24%
+
+	.latestproject	
+		padding: 5% 0
+
+		.title
+			font-size: 1.75rem
+
+		.subtitle
+			font-size: 1rem
+
+			
+
+		.wrapper
+			display: flex
+			flex-wrap: nowrap
+
+			.mainContent
+				padding: 5%
+
+				width: 50%
+
+				.title
+					margin-top: 10vh
+
+					text-align: left
+				
+				.description
+					font-family: $robslab
+					font-size: 0.75rem
+					text-align: left
+
+					opacity: 0.7
+
+				.mainContent-list			
+					li
+						margin: 1% 0
+
+						
+
+
+		.image
+			position: relative
+			top: 20vh
+
+			height: 60vh
+			width: 50%
+
+
+
+	.culture
+
+
+		.title
+			font-size: 1.75rem
+
+		.subtitle
+			font-size: 1rem
+
+		.wrapper
+			top: 5vh
+
+			display: flex
+			flex-wrap: wrap
+
+
+			.block
+				margin: 0
+
+				width: calc(100%/3)
+
+				position: relative
+
+				&:after
+					height: 2px
+					width: 100px
+
+					top: 21%
+					left: 80%
+					
+
+				.description
+					margin: 0 5% 10% 5%
+
+
+	.clients
+		padding: 5% 0
+
+		.title
+			font-size: 1.75rem
+
+	.subtitle
+		font-size: 1rem
+
+
+	blockquote
+		margin: 10% 5%
+
+		text-align: right
+
+		display: flex
+		flex-wrap: wrap
+
+
+		
+		&:last-child
+			text-align: left
+			.avatar	
+				order: 2
+
+		.avatar
+			height: 190px
+			width: 30%
+
+
+			margin-left: 0
+
+		.quote
+			position: relative
+			top: 30px
+
+			font-size: 1rem
+
+			width: 70%
+
+		.author
+			position: relative
+			top: 20px
+
+			font-size: 1rem
+
+	.contact
+		.title
+			font-size: 1.75rem
+
+	
+	.logos
+		padding: 15%
+
+		.wrapper
+			display: flex
+			flex-wrap: nowrap
+
+			justify-content: center
+
+			img
+				margin: 2.5vh 1%			
+
+	
+	.page-footer
+		.text-block
+
+			.contacts
+				width: 33%
+
+				font-size: 0.8rem
+
+
+	
+
+			.latestpost
+				width: 33%
+				ul
+					li
+						font-size: 0.8rem
+
+			.latesttweets
+				width: 33%
+
+				font-size: 0.8rem
+		
+		.socials-block	
+			ul
+				li
+					font-size: 1.5rem
+
+
+
+@media only screen and (min-width : 64em)
+
+	.intro
+		height: 95vh
+
+		.title
+			top: 25vh
+
+		.subtitle
+			top: 25vh
+			
+		a
+			top: 34vh
+
+			transition: 0.3s
+
+			&:hover
+				background-color: #FFFFFF
+				color: #000000
+
+				transition: 0.3s
+
+
+	.professional-services
+		height: 48vh
+
+	
+	.justrelax
+		.wrapper
+
+			.mainContent
+				height: 69vh
+
+		
+				.mainContentBtn
+					margin: 8vh 0
+					width: 18%
+					
+					&:hover
+						background-color: #FFFFFF
+						color: #000000
+
+						transition: 0.3s
+			
+
+
+	.latestproject
+		.wrapper
+			.mainContent
+				.mainContentViewDetails
+					&:hover
+						color: #000000
+
+
+	.culture
+		.wrapper
+			.block
+				&:after
+					height: 2px
+					width: 42%
+
+					top: 21%
+					left: 80%
+					
+
+				.description
+					margin: 0 5% 10% 5%
+
+
+	.clients
+		padding: 5% 7%
+
+		blockquote
+			.avatar
+				width: 25%
+
+		
+	.contact
+		.title
+			font-size: 2.05rem
+
+		a
+			padding: 15px
+
+			transition: 0.3s
+
+			&:hover
+				background-color: #FFFFFF  
+				color: #7cc576
+
+				transition: 0.3s
+
+	
+	.logos
+		padding: 5% 15%
+
+		.wrapper
+			img
+				margin: 2.5vh 5%			
+
+	
+	.page-footer
+		.text-block
+			.contacts
+				font-size: 1rem
+
+			.latestpost
+				ul
+					li
+						font-size: 1rem
+
+			.latesttweets
+				font-size: 1rem
+		
+		.socials-block	
+
+			ul
+				li
+					margin: 2% 
+					font-size: 1.5rem
+					
+					a
+						transition: 0.2s
+
+						&:hover
+							color: #7cc576
+							transition: 0.2s
+
+
+
+@media only screen and (min-width : 80em)
+
+	.intro
+		height: 95vh
+
+		.title
+			top: 35vh
+
+		.subtitle
+			top: 35vh
+			
+		a
+			top: 44vh
+			
+			font-size: 1rem
+
+
+	.justrelax
+		.wrapper
+
+			.mainContent
+				height: 50vh
+
+		
+				.mainContentBtn
+					margin: 8vh 0
+					width: 14%
+					
+			
+			.gear
+				background-position: left -110px center
+
+
+	.latestproject
+		.wrapper
+			.mainContent
+				.mainContentViewDetails
+					&:hover
+						color: #000000
+
+
+	.culture
+		.wrapper
+			.block
+				&:after
+					height: 2px
+					width: 42%
+
+					top: 21%
+					left: 80%
+					
+
+				.description
+					margin: 0 5% 10% 5%
+
+
+	.clients
+		padding: 5% 7%
+
+		blockquote
+			.avatar
+				width: 20%
+
+		
+	.contact
+		.title
+			font-size: 2.05rem
+
+		a
+			padding: 15px
+
+			transition: 0.3s
+
+			&:hover
+				background-color: #FFFFFF  
+				color: #7cc576
+
+				transition: 0.3s
+
+	
+	.logos
+		padding: 5% 15%
+
+		.wrapper
+			img
+				margin: 2.5vh 5%			
+
+	
+	.page-footer
+		.text-block
+			.contacts
+				font-size: 1rem
+
+			.latestpost
+				ul
+					li
+						font-size: 1rem
+
+			.latesttweets
+				font-size: 1rem
+		
+		.socials-block	
+
+			ul
+				li
+					margin: 2% 
+					font-size: 1.5rem
+					
+					a
+						transition: 0.2s
+
+						&:hover
+							color: #7cc576
+							transition: 0.2s							
+
+
+
+@media only screen and (min-width : 85em)
+
+	
+
+	.justrelax
+		.wrapper
+
+			.mainContent
+				height: 60vh
+
+		
+				.mainContentBtn
+					margin: 8vh 0
+					width: 15%
+					
+			
+			.gear
+				width: 40%
+				background-position: left -50px center
+				background-size: 160%
+
+	.latestproject
+		.wrapper
+			.mainContent
+				.mainContentViewDetails
+					&:hover
+						color: #000000
+
+				.title
+					font-size: 1.5rem			
+				
+				.description
+					font-size: 1rem
+
+
+	.culture
+		.wrapper
+			.block
+				&:after
+					height: 2px
+					width: 42%
+
+					top: 21%
+					left: 80%
+
+
+				.description
+					margin: 0 5% 10% 5%
+
+
+	.clients
+		padding: 5% 7%
+
+		blockquote
+			.avatar
+				width: 20%
+
+		
+@media only screen and (min-width : 100em)
+
+	.page-header
+		height: 0vh
+
+	.intro
+		.title
+			top: 25vh
+
+			font-size: 6rem
+		
+		.subtitle
+			top: 20vh
+
+			font-size: 2rem
+
+		a
+			top: 30vh
+
+			font-size: 2.0rem
+
+	.professional-services
+		.title
+			font-size: 3rem
+
+		.subtitle
+			font-size: 1.6rem			
+
+
+		.wrapper
+			.block
+				.block-title
+					font-size: 2rem	
+
+				.block-description
+					font-size: 1.2rem
+
+
+	.justrelax
+		.wrapper
+
+			.mainContent
+				height: 40vh
+
+		
+				.mainContentBtn
+					margin: 8vh 0
+					width: 15%
+					
+			
+			.gear
+				width: 40%
+				background-position: left -50px center
+				background-size: 160%
+
+	.latestproject
+		
+		.title
+			font-size: 3rem
+
+		.subtitle
+			font-size: 1.6rem	
+
+		
+		.image
+			height: 50vh
+
+	.culture
+
+		.title
+			font-size: 3rem
+
+		.subtitle
+			font-size: 1.6rem	
+
+		.wrapper
+			padding: 0 5%
+			.block
+				&:after
+					height: 4px
+					width: 60%
+
+					top: 12%
+					left: 70%
+				
+				.title
+					font-size: 2rem
+
+				.description
+					font-size: 1.5rem	
+
+				.description
+					margin: 0 5% 10% 5%
+
+
+	.clients
+		padding: 5% 7%
+
+		.title
+			font-size: 3rem
+
+		.subtitle
+			font-size: 1.6remW	
+
+		blockquote
+			.avatar
+				width: 18%
+
+
+			.quote
+				font-size: 1.8rem
+
+				.author	
+					font-size: 1.4rem	
+
+
+
+
